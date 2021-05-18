@@ -1,3 +1,4 @@
+#%%
 ## 라이브러리 추가하기
 import argparse
 
@@ -16,6 +17,9 @@ from util import *
 import matplotlib.pyplot as plt
 
 from torchvision import transforms, datasets
+
+#%%
+
 
 ## Parser 생성하기
 parser = argparse.ArgumentParser(description="Train the UNet",
